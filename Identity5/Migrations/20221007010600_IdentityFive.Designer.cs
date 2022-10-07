@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Identity5.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20221003114731_AddAuthentication")]
-    partial class AddAuthentication
+    [Migration("20221007010600_IdentityFive")]
+    partial class IdentityFive
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
